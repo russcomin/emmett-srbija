@@ -56,7 +56,7 @@
 .hero {
 	width: 100%;
 	height: 480px;
-	background-image: url(images/hero-background.jpg);
+	background-image: url(images/about-background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -79,7 +79,7 @@
 	font-size: 36px;
 	color: white;
 	letter-spacing: 2.2px;
-	padding-top: 100px;
+	padding-top: 110px;
 }
 
 .hero-text {
@@ -88,7 +88,7 @@
 	color: white;
 	letter-spacing: .8px;
 	line-height: 220%;
-	margin-top: 32px;
+	margin-top: 42px;
 }
 
 .kursevi {
@@ -117,8 +117,7 @@
 .scroll {
 	position: absolute;
 	top: 610px;
-	left: 50%;
-	-webkit-transform: translate(-50%,0);
+	left: 48%;
 }
 
 
@@ -130,15 +129,15 @@
 	margin: 0 auto;
 }
 
+
 .emmett {
-	height: 390px;
+	height: 370px;
 	margin-top: 75px;
 }
 
-.emmett .box-img {
-	width: 486px;
-	height: 100%;
-	float: left;
+.analiza {
+	height: 360px;
+	margin-top: 40px;
 }
 
 .box-content {
@@ -148,7 +147,7 @@
 }
 
 .box-title {
-	margin-top: 38px;
+	margin-top: 34px;
 	margin-left: 32px;
 	font-family: Roboto-Bold;
 	font-size: 14px;
@@ -167,16 +166,25 @@
 }
 
 .ross {
+	width: 800px;
 	height: 510px;
 	margin-top: 45px;
 }
 
 .ross .box-img {
-	float: right;
+	float: left;
 }
 
 .ross .box-img img {
 	height: 510px;
+}
+
+.ross .box-title {
+	margin-top: 60px;
+}
+
+.r-fix {
+	margin-left: 40px;
 }
 
 .kursevi-main {

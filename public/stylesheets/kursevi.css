@@ -56,7 +56,7 @@
 .hero {
 	width: 100%;
 	height: 480px;
-	background-image: url(images/hero-background.jpg);
+	background-image: url(images/kursevi-background.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -79,7 +79,7 @@
 	font-size: 36px;
 	color: white;
 	letter-spacing: 2.2px;
-	padding-top: 100px;
+	padding-top: 110px;
 }
 
 .hero-text {
@@ -88,7 +88,7 @@
 	color: white;
 	letter-spacing: .8px;
 	line-height: 220%;
-	margin-top: 32px;
+	margin-top: 42px;
 }
 
 .kursevi {
@@ -117,8 +117,7 @@
 .scroll {
 	position: absolute;
 	top: 610px;
-	left: 50%;
-	-webkit-transform: translate(-50%,0);
+	left: 48%;
 }
 
 
@@ -130,15 +129,15 @@
 	margin: 0 auto;
 }
 
+
 .emmett {
-	height: 390px;
+	height: 370px;
 	margin-top: 75px;
 }
 
-.emmett .box-img {
-	width: 486px;
-	height: 100%;
-	float: left;
+.analiza {
+	height: 360px;
+	margin-top: 40px;
 }
 
 .box-content {
@@ -148,7 +147,7 @@
 }
 
 .box-title {
-	margin-top: 38px;
+	margin-top: 34px;
 	margin-left: 32px;
 	font-family: Roboto-Bold;
 	font-size: 14px;
@@ -167,16 +166,25 @@
 }
 
 .ross {
+	width: 800px;
 	height: 510px;
 	margin-top: 45px;
 }
 
 .ross .box-img {
-	float: right;
+	float: left;
 }
 
 .ross .box-img img {
 	height: 510px;
+}
+
+.ross .box-title {
+	margin-top: 60px;
+}
+
+.r-fix {
+	margin-left: 40px;
 }
 
 .kursevi-main {
@@ -200,7 +208,7 @@
 	width: 100%;
 	height: auto;
 	text-align: center;
-	margin-top: 60px;
+	margin-top: -140px;
 }
 
 .kurs-box {
@@ -210,7 +218,9 @@
 	-moz-box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.33);
 	box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.33);
 	display: inline-block;
-	margin: 0px 35px 0px 35px;
+	vertical-align: middle;
+	margin: 0px -5px 0px -5px;
+	background: white;
 }
 
 .box-header {
@@ -411,3 +421,41 @@
 	color: #888787;
 	margin-top: -10px;
 }
+
+/*
+*
+* KURSEVI
+*
+*/
+
+.normal-title {
+	color: #818181;
+	font-family: Roboto-Bold;
+	font-size: 13px;
+	letter-spacing: .7px;
+	text-align: left;
+	margin-left: 26px;
+	margin-top: 50px;
+}
+
+.normal-text {
+	text-align: left;
+	font-family: Roboto-Regular;
+	font-size: 12px;
+	color: #a4a4a4;
+	letter-spacing: .7px;
+	margin-left: 26px;
+	margin-top: 35px;
+	line-height: 270%;
+}
+
+.kurs-2 {
+	margin-top: 30px;
+}
+
+.kurs-2 .kurs-box {
+	height: 440px;
+}
+
+.kurs-2 .kurs-box .normal-title { margin-top: 40px; }
+.kurs-2 .kurs-box .normal-text { margin-top: 30px; }

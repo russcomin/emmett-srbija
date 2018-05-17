@@ -4,6 +4,7 @@
 	<title>Emmett Srbija</title>
 	<link rel="stylesheet" type="text/css" href="public/stylesheets/reset.css">
 	<link rel="stylesheet" type="text/css" href="public/stylesheets/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8" /> 
 </head>
 <body>
@@ -15,9 +16,9 @@
 			<div class="navigation">
 				<ul>
 					<li><a href="#" id="active">POČETNA</a></li>
-					<li><a href="#">O TEHNICI</a></li>
-					<li><a href="#">KURSEVI</a></li>
-					<li><a href="#">KONTAKT</a></li>
+					<li><a href="tehnika.html">O TEHNICI</a></li>
+					<li><a href="kursevi.html">KURSEVI</a></li>
+					<li><a href="kontakt.html">KONTAKT</a></li>
 				</ul>
 			</div><!-- end navigation -->
 		</div><!-- end header -->
@@ -27,7 +28,7 @@
 				<p class="hero-text hero-p">Tehnika je toliko efikasna i prihvaćena <br>
 				da medicinski radnici i drugi slični terapeuti <br>
 				zahtevaju da je nauče. </p>
-				<button class="kursevi hero-p" type="button">KURSEVI</button>
+				<button class="kursevi hero-p" type="button" id="kurs_e">KURSEVI</button>
 			</div><!-- end hero-content -->
 			<img src="public/stylesheets/images/scroll.png" class="scroll">
 		</div><!-- end hero -->
@@ -36,13 +37,13 @@
 			<div class="box-content">
 				<p class="box-title">Emmett Tehnika</p>
 				<p class="box-text">Da li vaši pacijenti pate od nesnošljivog bola artritisa, <br>
-				mišića i glavobolja? Emmett Tehnika je jedinstvena te- <br>
-				lesna terapeutska tehnika koju je osnovao Ross Emm- <br>
-				ett. Tehnika je toliko efikasna i prihvaćena da medici- <br>
-				nski radnici i drugi slični terapeuti zahtevaju da je na- <br>
-				uče. Tretmani mogu da se rade preko odeće i uključuju <br>
-				nežno, telesno opuštanje grupa mišića uz istovremeni <br>
-				verbalni pristup da bi se stvorila promena stava.</p>		
+				mišića i glavobolja? Emmett Tehnika je jedinstvena telesna <br> 
+				terapeutska tehnika koju je osnovao Ross Emmett. Tehnika<br> 
+				je toliko efikasna i prihvaćena da medicinski radnici i drugi <br>
+				slični terapeuti zahtevaju da je nauče. Tretmani mogu da se <br>
+				rade preko odeće i uključuju nežno, telesno opuštanje grupa <br>
+				mišića uz istovremeni verbalni pristup da bi se stvorila <br>
+				promena stava.</p>		
 			</div><!-- end box-text -->
 		</div><!-- end emmett -->
 		<div class="ross box">
@@ -50,15 +51,16 @@
 			<div class="box-content">
 				<p class="box-title">Ross Emmett</p>
 				<p class="box-text">Ross Emmettova „Emmett Tehnika“ dostiže rastuću svetsku <br> 
-				popularnost od dana kada je Ross počeo da predaje tehniku 1999. <br>
-				Tehnika ima široku dopadljivost: ne samo da je koriste sa entuzij-<br>
-				azmom Bowen terapeuti, maseri i drugo osoblje, već možemo da <br>
-				vidimo i rastući broj profesionalnih trenera kao što su Pilates in-<br>
-				struktori i lični treneri koji su željni da uče i primenjuju ovu izva-<br>
-				nrednu tehniku. Ova tahnika može da se koristi kao dotatna tera-<br>
-				pija bilo kojoj telesnoj terapiji ili sistemu vežbanja i pruža vrednu <br>
-				dopunu svima koji rade da oslobode bol i neugodnost ili uspostave <br>
-				mišićnu funkciju klijentima.</p>		
+				popularnost od dana kada je Ross počeo da predaje tehniku <br>
+				1999. Tehnika ima široku dopadljivost: ne samo da je koriste <br>
+				sa entuzijazmom Bowen terapeuti, maseri i drugo osoblje, već <br>
+				možemo da vidimo i rastući broj profesionalnih trenera kao <br>
+				što su Pilates instruktori i lični treneri koji su željni da uče <br>
+				i primenjuju ovu izvanrednu tehniku. Ova tahnika može da <br>
+				se koristi kao dotatna terapija bilo kojoj telesnoj terapiji ili <br>
+				sistemu vežbanja i pruža vrednu dopunu svima koji rade da <br> 
+				oslobode bol i neugodnost ili uspostave mišićnu funkciju <br>
+				klijentima.</p>		
 			</div><!-- end box-text -->
 		</div><!-- end emmett -->
 		<div class="kursevi-main">
@@ -152,7 +154,23 @@
 					+381 63 600959
 				</p>				
 			</li><!-- end contact-box -->
-		</ul><!-- end contact-holder -->			
+		</ul><!-- end contact-holder -->
+		<div class="footer">
+			<div class="footer-left">
+				<p class="logo-text">Emmett Therapies</p>
+				<p class="cr-text">Copyright 2018 © Emmett Theraapies</p>
+			</div><!-- end footer-left -->
+			<div class="footer-right">
+				<ul>
+					<li><a href="#" id="active">POČETNA</a></li>
+					<li><a href="tehnika.html">O TEHNICI</a></li>
+					<li><a href="kursevi.html">KURSEVI</a></li>
+					<li><a href="kontakt.html">KONTAKT</a></li>
+				</ul><br>
+				<p class="craft">crafted by <span><a href="https://russcomin.github.io/jovan-belic/">Jovan Belic</a></span></p>
+			</div><!-- end footer-right -->
+		</div><!-- end footer -->			
 	</div><!-- end container -->
+	<script src="views/main.js"></script>
 </body>
 </html>
